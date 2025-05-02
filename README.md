@@ -23,6 +23,13 @@ pip install -r requirements.txt
 python seneca.py --input wise_transactions.csv --map categories.json
 ```
 
+
+or, install using pipx directly:
+
+```
+pipx install git+https://github.com/fdavies93/seneca.git
+```
+
 ## Options
 
 Note that the script prints to `stdout`. This is by design so that you can use `>` and `>>` to pipe into different files.
